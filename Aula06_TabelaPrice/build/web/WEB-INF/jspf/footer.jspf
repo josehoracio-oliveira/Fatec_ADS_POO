@@ -1,0 +1,16 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr/>
+
+    <div style="text-align: center">
+        <div><i>Fatec PG - ADS Noturno - POO</i></div>
+        <div><small><b>Jose Horacio</b></small></div>
+        <div><small><b>RA: 1290481813002</b></small></div>
+        <div><small><b><a href="https://github.com/josehoracio-oliveira">Perfil GitHub</a></b></small></div>
+    <hr/> 
+  
+</div>

@@ -1,0 +1,7 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<hr/>
+<div style="text-align: center">
+    <div>Desenvolvido para FATEC PG</div>
+    <div><small><u>Aluno: Jose Horacio</u></small></div>
+</div>

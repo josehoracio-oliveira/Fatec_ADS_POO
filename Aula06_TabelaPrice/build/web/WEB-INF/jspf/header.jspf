@@ -1,0 +1,16 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+            <h1>Tabela Price - Calculadora de Amortização</h1>
+        <hr/>
+            <a href="<%= request.getContextPath()%>/index.jsp">Início</a>
+            <a href="<%= request.getContextPath()%>/pages/tabela-price.jsp">Tabela Price</a>
+            <%--
+            <hr/>
+            <%= request.getRequestURI() %>
+            --%>
+        <hr/>
+        <br/>
+        <br/>
+        
+ 

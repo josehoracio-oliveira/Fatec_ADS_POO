@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Index - JavaEE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <header class="container-header">
+        <h1>Cálculo de Juros com Servlets</h1>
+    </header>
+    
+    <main class="container-main">
+    
+        <div>
+            <h1>Jose Horacio</h1>
+            <h2>RA:1290481813002</h2>
+        </div>
+
+                     
+            <form class="form" method="post" action="juros-simples.html">
+                <input class="input" type="number" placeholder="Valor Presente"      name="VP" required>
+                <input class="input" type="number" placeholder="Prazo (meses)"       name="N" required>
+                <input class="input" type="number" placeholder="Taxa de Juros (% a.m)" name="i" required>
+                <input class="reset-btn btn" type="submit" value="Calcular VF (Juros Simples)" />
+            </form>
+              
+            <form class="form" method="post" action="juros-composto.html">
+                <input class="input" type="number" placeholder="Valor Presente"      name="VP" required>
+                <input class="input" type="number" placeholder="Prazo (meses)"       name="N" required>
+                <input class="input" type="number" placeholder="Taxa de Juros (% a.m)" name="i" required>
+                <input class="reset-btn btn" type="submit" value="Calcular VF (Juros Composto)" />
+            </form>
+
+                
+         <!--
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="btn nav-link"><a href="juros-simples.html">Calcular VF (Juros Simples)</a></li>
+                <li class="btn nav-link"><a href="juros-composto.html">Calcular VF (Juros Composto)</a></li>
+            </ul>
+        </nav>
+        -->
+
+    </main>
+</body>
+
+
+</html>
