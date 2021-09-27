@@ -37,7 +37,6 @@
         catch(Exception e)
             {error = "Erro de cálculo "+ e.getMessage();}
        }
-   
     %>
             
 
