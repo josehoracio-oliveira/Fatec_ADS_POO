@@ -31,9 +31,6 @@
         <input type="text" name="session-password" placeholder="Digite sua senha" required/>
         <input type="submit" name="session-login" value="Entrar"/>
             
-        <%if(sessionName==null | sessionPassword ==null){%>
-        <div>senha incorreta</div>
-        <%}%>
            <br>
            <br>
            <h3>Palpites do dia para Loteria:</h3>
